@@ -1,0 +1,11 @@
+#question 10 assignment 3
+string1 = input("enter a string: ")
+unique = set()
+unique1 = []
+for char in string1:
+    if char not in unique:
+        unique.add(char)
+        unique1.append(char)
+
+print(unique1)
+print(len(unique1))
